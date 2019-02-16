@@ -1,0 +1,4 @@
+role workshop.helloworld.hdb::user extends catalog role "sap.pa.apl.base.roles::APL_EXECUTE", "AFLPM_CREATOR_ERASER_EXECUTE", "AFL__SYS_AFL_AFLPAL_EXECUTE" {
+	schema workshop.helloworld.hdb:MOVIELENS.hdbschema: SELECT, EXECUTE, CREATE ANY;
+	application privilege: workshop.helloworld::Basic;
+}

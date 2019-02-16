@@ -1,0 +1,34 @@
+import = [
+  {
+	table  = "workshop.helloworld.hdb::data.LINKS";
+    schema = "MOVIELENS" ;
+    file = "workshop.helloworld.data:links.csv";
+    header = true;
+      delimField = ",";
+      delimEnclosing= "\"";
+  },
+  {
+    table  = "workshop.helloworld.hdb::data.MOVIES";
+    schema = "MOVIELENS" ;
+    file = "workshop.helloworld.data:movies.csv";
+    header = true;
+      delimField = ",";
+      delimEnclosing = "\"";
+  },
+  {
+    table  = "workshop.helloworld.hdb::data.RATINGS";
+    schema = "MOVIELENS" ;
+    file = "workshop.helloworld.data:ratings.csv";
+    header = true;
+      delimField = ",";
+      delimEnclosing= "\"";
+  },
+  {
+    table  = "workshop.helloworld.hdb::data.TAGS";
+    schema = "MOVIELENS" ;
+    file = "workshop.helloworld.data:tags.csv";
+    header = true;
+      delimField = ",";
+      delimEnclosing= "\"";
+  }
+];
